@@ -11,14 +11,17 @@
 <body>
     <article>
         <header>
-            <h1>Meet the Team</h1>
-            <!--theTeam image-->
+            <img src="logo.png" alt="The logo image does not exist!">
+            <h1 style="background-image: url(images/theTeam.jpg); padding: 4em 1em; color: white;">Meet the Team</h1>
+            <!-- The padding is necessary else part of the image will be hidden. 
+            The colour change is necessary else hard to see with that particular background colour 
+            (very faintly visible as the default black colour)-->
         </header>
         <section>
             <h2>Technical IT</h2>
             <section>  
                 <h3>Adrian Jakeman</h3>
-                <!--photo-->
+                <img src="images/Adrian.png" alt="Adrian Jakeman" style="float: left;">
                 <p>Adrian has worked in the IT and education industries for the past 25 years and joined QA in 2006
                     with a focus on
                     the development and delivery of training around Visual Studio, Team Foundation Server and the
@@ -32,11 +35,13 @@
                     portfolio. Areas of expertise: Teaching and learning effectiveness, Application Lifecycle
                     Management, Cloud
                     computing, Team Foundation Server.</p>
-                <hr>
+                <hr style="clear: both;">
+                <!-- The clear attribute does not allow a floated element on the specified side of this element 
+                    (left, right, both) Source: QA Delegate Guide-->
             </section>
             <section>
                 <h3>David Walker</h3>
-                <!--photo-->
+                <img src="images/Dave.png" alt="Dave Walker" style="float: left;">
                 <p>David is a change driven technologist who continually looks to adapt and expand his knowledge and
                     understanding
                     of his field. Over the least eighteen years David has led technology and training companies through
@@ -60,11 +65,11 @@
                     driven approaches to developing solutions. He has authored courses such as HTML5, Responsive Web
                     Development,
                     User Experience, NodeJS, Javascript and jQuery.</p>
-                <hr>
+                <hr style="clear: both;">
             </section>
             <section>
                 <h3>Laurence Sharp</h3>
-                <!--photo-->
+                <img src="images/Laurence.png" alt="Laurence Sharp" style="float: left;">
                 <p>Having been a chartered surveyor with computing as a hobby, Laurence made a midlife career choice
                     and joined QA
                     in 1994. Originally specialising in desktop applications and end user training he is now a
@@ -79,11 +84,11 @@
                     and web
                     development solution area and gets a lot of satisfaction in passing this new information on to our
                     delegates.</p>
-                <hr>
+                <hr style="clear: both;">
             </section>
             <section>
                 <h3>Phil Stirpe</h3>
-                <!--photo-->
+                <img src="images/Phil.png" alt="Phil Stirpe" style="float: left;">
                 <p>Philip is a Microsoft Certified Trainer - MCT based in the North-West, and has been involved in
                     software
                     development and IT training for over 26 years. Philip is actively involved in vendor relationships.
@@ -110,7 +115,7 @@
                     Philip develops
                     a great number of QA authored courses. Recent courses include ASPNET MVC, OWASP for Java, Puppet
                     and Chef.</p>
-                <hr>
+                <hr style="clear: both;">
             </section>
         </section>
     </article>
